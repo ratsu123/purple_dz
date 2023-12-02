@@ -19,7 +19,9 @@ body {
 
 }
 
-.nav__title h2 {
+.nav__title a  {
+    text-decoration: none;
+    color: white;
     text-align-last: left;
     font-size: 16px;
     line-height: 18.75px;
