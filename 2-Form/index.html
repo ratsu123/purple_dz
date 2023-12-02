@@ -1,27 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <main>
-        <h1>Регистрация</h1>
-        <form action="">
-            <p>Уже есть аккаунт? <a href="#">Войти</a></p>
-            <h2>Моя компания</h2>
-            <div>
-                <input type="text" name="name" placeholder="Имя">
-                <input type="text" name="surname" placeholder="Фамилия">
+        <div class="container">
+            <div class="form__title">
+                <h1>Регистрация</h1>
+                <div class="form__login">
+                    <p>Уже есть аккаунт? </p>
+                    <a href="#">Войти</a>
+                </div>
+
             </div>
-            <div>
-                <input type="email" name="email" id="email">
-            </div>
-            <button>Зарегистрироваться</button>
-            <p> Я прочитал и принимаю <a href="">Условия использования</a></p>
-        </form>
+
+            <form class="reg-form" action="">
+                <input type="text" id="company" name="company" placeholder="Моя компания">
+                <div class="fullname">
+
+                    <input type="text" name="name" placeholder="Имя">
+                    <input type="text" name="surname" placeholder="Фамилия">
+                </div>
+                <input type="email" name="email" id="email" placeholder="E-mail">
+
+                <button>Зарегистрироваться</button>
+                <p class="terms"> Я прочитал и принимаю <a href="">Условия использования</a></p>
+            </form>
+        </div>
+
     </main>
 </body>
+
 </html>
