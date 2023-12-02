@@ -1,0 +1,26 @@
+body {
+    background-color: #F39494;
+}
+form {
+    background-color: #FFFEFE;
+    
+
+    
+}
+h1{
+    color: #333333;
+    font-size: 36px;
+    font-weight: 700;
+
+}
+h2{
+    color: #333333;
+    font-size: 16px;
+}
+p{
+    color: #666666;
+}
+button{
+    color: #FFFFFF;
+    background-color: #089FE0;
+}
