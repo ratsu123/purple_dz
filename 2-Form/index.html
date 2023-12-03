@@ -1,43 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
     <main>
         <div class="container">
-            <div class="form__title">
-                <h1>Регистрация</h1>
-                <div class="form__login">
-                    <p>Уже есть аккаунт? </p>
-                    <a href="#">Войти</a>
+            <div class="form-window">
+                <div class="form__title">
+                    <h1>Регистрация</h1>
+                    <div class="form__login">
+                        <p>Уже есть аккаунт? </p>
+                        <a href="#">Войти</a>
+                    </div>
                 </div>
+                <form class="reg-form" action="">
+                    <label for="company">
+                        <input type="text" id="company" name="company" placeholder="Моя компания">
+                    </label>
+                    <div class="fullname">
+                        <label for="name">
+                            <input type="text" name="name" placeholder="Имя">
+                        </label>
 
+                        <label for="surname">
+                            <input type="text" name="surname" placeholder="Фамилия">
+                        </label>
+                    </div>
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+                    <button>Зарегистрироваться</button>
+                    <div>
+                        <input type="checkbox" name="terms" id="terms">
+                        <label for="terms" class="terms">
+                            Я прочитал и принимаю <a href="">Условия использования</a></label>
+                    </div>
+                </form>
             </div>
-
-            <form class="reg-form" action="">
-                <input type="text" id="company" name="company" placeholder="Моя компания">
-                <div class="fullname">
-
-                    <input type="text" name="name" placeholder="Имя">
-                    <input type="text" name="surname" placeholder="Фамилия">
-                </div>
-                <input type="email" name="email" id="email" placeholder="E-mail">
-
-                <button>Зарегистрироваться</button>
-                <p class="terms"> Я прочитал и принимаю <a href="">Условия использования</a></p>
-            </form>
         </div>
-
     </main>
 </body>
-
 </html>
