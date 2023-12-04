@@ -16,11 +16,13 @@ body {
     background-color: #F39494;
 }
 
+
 .form-window {
     width: 100%;
     padding: 72px 94px 90px;
     box-shadow: 0px 4px 4px 0px #00000040;
     border-radius: 7px;
+
     background-color: #FFFEFE;
     display: flex;
     flex-direction: column;
