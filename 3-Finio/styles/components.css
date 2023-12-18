@@ -1,0 +1,154 @@
+/* section */
+.section_blue {
+	background-color: var(--color-blue);
+}
+
+.section__wrapper {
+	max-width: var(--layout-width);
+	margin: 0 auto;
+	padding: 120px 24px;
+}
+
+/* headling */
+.headling {
+	margin-bottom: 40px;
+}
+
+.headling_center {
+	text-align: center;
+}
+
+.headling__h2 {
+	color: var(--color-black);
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 120%;
+	margin-bottom: 24px;
+	/* 57.6px */
+}
+
+.headling__p {
+	color: var(--color-gray-50);
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 140%;
+}
+@media (max-width: 480px) {
+	.headling {
+		text-align: left;
+	}
+	.headling__h2{
+		font-size: 36px;
+	}
+}
+/* tariffs */
+.tariffs {
+	display: grid;
+	gap: 24px;
+	grid-template-columns: repeat(auto-fit, minmax(365px, 1fr));
+
+}
+
+/* tariffs-card */
+.tariffs-card {
+	background-color: var(--color-white);
+	filter: var(--shadow-16);
+	padding: 48px 40px;
+
+}
+.tariffs-card_blue{
+	background-color: var(--color-bg-blue);
+	filter: var(--shadow-32);
+
+}
+.tariffs-card_blue .tariffs-card__time {
+	color: var(--color-white);
+
+}
+.tariffs-card_blue .tariffs-card__price{
+	color: var(--color-white);
+}
+.tariffs-card_blue .tariffs-card__text{
+	color: var(--color-white);
+	opacity: 0.6;
+	margin-bottom: 27px;
+}
+.tariffs-card__profit {
+	display: inline-flex;
+	justify-content: center;
+	gap: 5px;
+	border-radius: 8px;
+	background: #1ABC9C;
+	color: var(--color-white);
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 140%;
+	/* 21px */
+	padding: 4px 16px;
+}
+.tariffs-card__profit_hidden{
+	background-color: var(--color-white);
+}
+.tariffs-card__profit span {
+
+	font-size: 15px;
+	font-weight: 800;
+	line-height: 140%;
+}
+
+.tariffs-card__time {
+	color: var(--color-black);
+	font-size: 32px;
+	font-weight: 800;
+	line-height: 120%;
+	margin: 16px 0;
+}
+
+.tariffs-card__text {
+	color: var(--color-gray-50);
+	font-size: 17px;
+	font-weight: 500;
+	line-height: 140%;
+	margin-bottom: 50px;
+}
+
+.tariffs-card__price {
+	display: grid;
+	grid-template-columns: 2fr 1.2fr;
+	color: var(--color-gray);
+	font-size: 17px;
+	font-weight: 500;
+	line-height: 120%;
+	gap: 33px 0px;
+	margin-bottom: 40px;
+	/* 20.4px */
+}
+
+.price-golden {
+	padding: 8px 16px;
+	color: var(--color-white);
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 120%;
+	border-radius: 8px;
+	background: #FFC736;
+	margin-left: -16px;
+
+}
+/* button */
+.btn {
+	color: var(--color-white);
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 140%;
+	padding: 12px 63px;
+	border-radius: 47px;
+	background: #357EFE;
+	text-align: center;
+}
+.btn_white{
+	background-color: var(--color-white);
+	color: var(--color-bg-blue);
+}

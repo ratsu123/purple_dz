@@ -1,0 +1,9 @@
+.tariff-wrapper{
+    padding: 80px 24px;
+    max-width: var(--layout-width-1200);
+}
+@media (max-width: 480px) {
+    .tariff-wrapper{
+        padding: 48px 24px 64px;
+    }
+}
